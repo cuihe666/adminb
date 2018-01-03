@@ -1,0 +1,183 @@
+html,body{
+  padding:0;
+  margin:0;
+  border:none;
+  font-size:1rem;
+}
+p,img,i,b,span,ul,li,h1,h2,h3,h4,div,em{
+  padding:0;
+  margin:0;
+  border:none;
+  list-style: none;
+  font-style: normal;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/*各分会场 住宿类*/
+html,body{
+  background-color: #9d38e0;
+}
+.jz_main{
+  position:relative;
+}
+.jz_main .nav{
+  position:absolute;
+  left:0;
+  top:22px;
+  width:100%;
+  text-align: center;
+  color:#fff;
+  padding:0 3%;
+  box-sizing: border-box;
+}
+.nav .fanhui,.nav .share{
+  width:20px;
+}
+.nav .fanhui{
+  float:left;
+  width:13px;
+}
+.nav .share{
+  float:right;
+}
+.jz_main .line-con{
+  padding:1% 4%;
+  position:absolute;
+  left:0;
+  top:90%;
+  width:100%;
+  box-sizing: border-box;
+}
+.line-con div{
+  background-color:#fff;
+  border-radius: 5px;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+.div1 img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.div1 p{
+  padding-left:2%;
+  margin-top:5px;
+  color:#333;
+}
+.div1 .first_p{
+  /*width:100%;*/
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.jz_top span{
+  position:absolute;
+  left:50%;
+  top:20px;
+  transform:translate(-50%,0);
+  -webkit-transform:translate(-50%,0);
+  -moz-transform:translate(-50%,0);
+  -ms-transform:translate(-50%,0);
+  -o-transform:translate(-50%,0);
+  color:#fff;
+}
+
+/*民宿css*/
+.jz_main .jz_content{
+  position:absolute;
+  left:0;
+  top:90%;
+  width:100%;
+}
+.jz_top img{
+  width:100%;
+}
+
+.jz_content .bj_content{
+  padding:0 3%;
+}
+.bj_content h2{
+  text-align: center;
+  margin:10px auto;
+  background:url(../images/minsu_btn-bj.png) no-repeat;
+  width:200px;
+  background-size:100%;
+  height:40px;
+  color:#fff;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 34px;
+  letter-spacing: 2px;
+}
+.bj_content img{
+  width:100%;
+}
+.bj_content li{
+  width:48%;
+  float:left;
+  margin-right:2%;
+  margin-bottom:3%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.bj_content li img{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.bj_content li p{
+  padding-left:2%;
+  margin-bottom:5px;
+  width:100%;
+  box-sizing: border-box;
+  overflow:hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-top:5px;
+}
+.bj_content .li01{
+  margin-right:0;
+  margin-left:2%;
+}
+.bj_content span{
+  float:right;
+  margin-right:3%;
+  margin-bottom:5px;
+  color:#ff4c4c;
+  font-size: 1.2rem;
+}
+.bj_content span b{
+  color:#999;
+  font-size: 0.5rem;
+  font-weight: normal;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+/*线路分会场*/
+.line-con img{
+  width:100%;
+}
+.line-con span{
+  color:#1dbe72;
+}
+.line-con b{
+  font-weight: normal;
+  color:#999;
+}
+.line-con em{
+  font-weight: normal;
+  float:right;
+  color:#ff4c4c;
+  font-size: 1rem;
+  margin-right:1rem;
+}
+.line-con .p1{
+  margin-top:0;
+  font-size: 0.5rem;
+  height:20px;
+}
+.line-con i{
+  color:#666;
+}

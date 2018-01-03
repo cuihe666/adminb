@@ -1,0 +1,43 @@
+img{
+	display: block;
+	width: 150px;
+	height: 100px;
+	margin: 0 auto;
+}
+td a{
+	margin-right: 10px
+}
+#myModal1 .cont, #myModal2 .cont, #myModal3 .cont{
+	text-align: center;
+	font-size: 18px;
+	padding: 50px;
+}
+.pic_url{
+	display: inline-block;
+	width: 260px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	border: 1px solid #efefef;
+	float: left;
+}
+.file{
+	float: left;
+	width: 100px;
+	height: 32px;
+}
+.file button{
+	padding: 2px 10px;
+	color: white;
+	background: #1888F8;
+	border: 1px solid #efefef;
+}
+.pic .tit{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	text-align: right;
+}

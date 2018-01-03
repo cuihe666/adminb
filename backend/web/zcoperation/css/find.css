@@ -1,0 +1,60 @@
+.conts table a{
+    padding: 0px 10px;
+}
+[v-cloak]{
+    display: none;
+}
+/* 使用、禁用、删除弹框*/
+.modal-dialog{
+    margin: 200px auto;
+}
+#myModal .modal-content{
+    width: 300px;
+    height: 160px;
+    margin-left: 150px;
+}
+#myModal .cont{
+    text-align: center;
+    font-size: 18px;
+    height: 100px;
+    line-height: 100px;
+}
+/*首页专题、特色体验新增、编辑弹框*/
+.cont li{
+    padding-bottom: 10px;
+}
+.cont input{
+    width: 200px;
+}
+.cont .inp{
+    width: 300px;
+}
+.tit{
+    margin-right: 10px;
+    display: inline-block;
+    width: 60px;
+}
+.jump-city select{
+    width: 120px;
+    margin-right: 10px;
+}
+.goods-list span{
+    margin-left: 10px;
+}
+.goods-list a{
+    margin-left: 10px;
+}
+.goods-list .travel{
+    display: none;
+}
+.file{
+    width: 160px;
+    float: right;
+}
+.file button{
+    float: left;
+    padding: 4px 10px;
+    background: #1888F8;
+    font-size: 16px;
+    color: white;
+}

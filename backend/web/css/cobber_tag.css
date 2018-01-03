@@ -1,0 +1,232 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: "微软雅黑";
+    /*font-size: 12px;*/
+    background-color: #fff;
+}
+
+div, p, b, img, button, table, tr, td, i, hr, ul, li, h4, button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: none;
+    border-radius: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    list-style: none;
+    font-style: normal;
+    font-weight: normal;
+}
+
+button {
+    background-color: transparent;
+}
+
+input, button, select {
+    outline: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/*内容css*/
+.content-header hr {
+    height: 2px;
+    background-color: #1889f9;
+    margin-top: 5px;
+}
+
+.content hr {
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 5px;
+}
+
+.content-wrapper .row_top {
+    margin-top: 15px;
+}
+
+.row_top .btn_search {
+    padding: 2px 12px;
+    margin-left: 10px;
+}
+
+.row_top input {
+    width: 200px;
+    height: 25px;
+}
+
+.row_top span {
+    display: inline-block;
+    margin-left: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.content .row {
+    padding-left: 15px;
+}
+
+.row_add .btn_add {
+    background-color: transparent;
+}
+
+.form-group .table_line {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.table_line th {
+    text-align: center;
+}
+
+/*Banner 编辑*/
+.row_top p {
+    font-size: 16px;
+    color: #333;
+}
+
+.row_add2 i {
+    color: red;
+}
+
+.form-group .row_add2 {
+    margin-bottom: 15px;
+}
+
+.row_add2 span {
+    float: left;
+    width: 70px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.row_add2 input, .row_add2 textarea {
+    width: 250px;
+    resize: none;
+}
+
+.row_add2 textarea {
+    height: 150px;
+}
+
+.row_add3 i {
+    color: #ccc;
+}
+
+/*banner 编辑 table*/
+.form-group .table_top {
+    margin-left: 80px;
+}
+
+/*footer css*/
+.content .footer {
+    margin-top: 50px;
+}
+
+/*model css*/
+.model_st .row_model {
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.row_model span {
+    width: 70px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    float: left;
+}
+
+.row_model input {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.row_model select {
+    width: 100px;
+    height: 30px;
+}
+
+.row_model .inp {
+    width: 80px;
+    text-align: center;
+}
+
+#date_start {
+    margin-right: 10px;
+}
+
+#date_end {
+    margin-left: 10px;
+}
+
+#date_start, #date_end {
+    width: 170px;
+    padding-left: 2px;
+    border-box: border-sizing;
+    height: 30px;
+}
+
+.row_model img {
+    width: 200px;
+    height: 150px;
+}
+
+.model_st .foot_model {
+    margin-left: 80px;
+}
+
+.foot_model .btn_qx {
+    margin-left: 15px;
+}
+
+/*浏览图片*/
+.row_model .imgbox {
+    width: 50px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 1px 0;
+    box-sizing: border-box;
+}
+
+.imgbox .filepath {
+    position: absolute;
+    /*border: 1px solid red;*/
+    left: 0;
+    top: 0;
+    width: 100%;
+    /*width: 200;*/
+    opacity: 0;
+    cursor: pointer;
+}
+
+.imgbox em {
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+
+/*.row_model .img2{
+		width: 200px;
+		height: 150px;
+}*/

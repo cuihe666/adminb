@@ -1,0 +1,136 @@
+.comment-info-ids, .comment-info-times{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 30px;
+    line-height: 30px;
+    margin: 10px auto;
+}
+
+.comment-info-stars {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.comment-info-text {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.comment-info-text textarea{
+    width: 80%;
+    height: 150px;
+    resize: none;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.comment-info-imgs {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.comment-info-imgs ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+    padding-left: 0;
+}
+
+.comment-info-imgs ul li{
+    position: relative;
+    width: 160px;
+    height: 130px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.comment-info-imgs ul li img{
+    width: 100%;
+    height: 100%;
+}
+
+.checkbox-in-img {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+
+.comment-info-imgs-right{
+    width: 90%;
+}
+
+.comment-info-essence{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.comment-info-btn{
+    width:  90%;
+    margin: 10px auto;
+}
+
+.comment-info-btn span{
+    margin-left: 70px;
+}
+
+/*图片预览样式*/
+.outer-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .2);
+    text-align: center;
+    /*margin: 20% auto;*/
+}
+
+.layer-display {
+    display: none;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.inner-canvas {
+    display: inline-block;
+    position: relative;
+    margin-top: 7%;
+}
+
+.left-rotate {
+    position: absolute;
+    top: 49%;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.right-rotate {
+    position: absolute;
+    top: 49%;
+    right: 0;
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/*.img-canvas {*/
+    /*width: 900px;*/
+    /*height: 900px;*/
+    /*!*margin: 20% auto;*!*/
+/*}*/

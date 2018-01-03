@@ -1,0 +1,35 @@
+html,body,div,ul,ol,li,input,button,dl,dd,dt,a,p,span,em,img,i,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	box-sizing: border-box;
+}
+input,button,textarea {/*去除input默认样式*/
+	-webkit-appearance:none;
+	appearance:none; 
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+textarea {
+	resize:none;
+}
+html {
+	font-size:20px;
+	-webkit-text-size-adjust: none;
+	font-family:"";
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+	color:#999;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:after { clear: both; display: block; visibility: hidden; height: 0; line-height: 0; content: ""; }
+.po_re {position: relative;}
+.po_ab {position: absolute;}
+.fl {float: left;}
+.fr {float: right;}
+

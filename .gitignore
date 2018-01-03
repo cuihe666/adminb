@@ -1,0 +1,47 @@
+# yii console commands
+/yii
+/yii_test
+/yii_test.bat
+
+# phpstorm project files
+.idea/
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer vendor dir
+/vendor
+/common/config/main-local.php
+
+# composer itself is not needed
+composer.phar
+
+# Mac DS_Store Files
+.DS_Store
+
+# phpunit itself is not needed
+phpunit.phar
+# local phpunit config
+/phpunit.xml
+
+# vagrant runtime
+/.vagrant
+
+# cache dir
+backend/runtime/*/
+backend/web/assets/*/
+# newbase H5
+backend/web/operate-sale/js/method/newBase.js
+
+# H5 base.js
+backend/web/webcaiwu/js/method/base.js
+backend/web/zcoperation/js/lib/base.js
+backend/web/operate-sale/js/method/newBase.js

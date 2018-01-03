@@ -1,0 +1,71 @@
+a,a:hover,a:active,a:visited,a:link,a:focus{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+	outline:none;
+	background: none;
+	text-decoration: none;
+}
+#container,#container:link,#container:visited,#container:hover,#container:active{
+	background:#fff;
+}
+.loading{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background: rgba(255,255,255,0.9) url("../img/loading.gif") center center no-repeat;
+	display:none;
+}
+.cancelBtn,.cancelBtn:hover,.cancelBtn:active{
+	color:#333;
+	background:#1888F8;
+}
+.sureBtn,.sureBtn:hover,.sureBtn:active{
+	color:#fff;
+	background:#1888F8;
+	margin-right:100px;
+
+}
+.country{
+  display:inline-block;
+  margin-top:0;
+}
+.cityList select{
+	width:100px;
+}
+.msg{
+	color:#f00;
+	line-height:30px;
+	display:none;
+
+}
+
+.alertBox .modal-header{
+	display:none;
+}
+.alertBox .modal-body{
+	text-align:center;
+	font-size:18px;
+	padding: 50px;
+	margin: 0;
+}
+
+.alertBox .modal-footer{
+	/*border-top:none;*/
+	margin-top:0;
+}
+.alertBox .btn-primary{
+    padding:6px 24px;
+
+}
+.alertBox .yes{
+	margin-right:100px;
+}
+.alertBox .no{
+	color:#333;
+}
+.edit_table{
+	width:100%;
+	overflow: auto;
+}

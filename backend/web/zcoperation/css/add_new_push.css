@@ -1,0 +1,112 @@
+body{
+	background: white;
+}
+.main{
+	width: 95%;
+	border: 1px solid #efefef;
+	margin: 0 auto;
+	background: white;
+	box-sizing: border-box;
+	padding: 10px 20px;
+}
+.clear:after{
+	content: ".";
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+}
+.main h4{
+	line-height: 40px;
+}
+.main input, .main select{
+	border: 1px solid #efefef;
+}
+.main .tit{
+	display: inline-block;
+	margin-right: 10px;
+	width: 80px;
+}
+.main p{
+	margin-bottom: 20px;
+}
+.push_type{
+	width: 500px;
+	padding: 4px 10px;
+}
+.add_city{
+	display: none;
+	padding: 20px 10px;
+	border: 1px solid #efefef;
+	width: 500px;
+	margin-left: 96px;
+	margin-top: 20px;
+	outline: none;
+}
+.platform{
+	width: 80px;
+	padding: 4px 10px;
+	font-size: 12px;
+}
+.push_user{
+	line-height: 30px
+}
+.radio, .city{
+	padding-top: 4px;
+}
+.rup_type{
+	padding: 4px 10px;
+}
+.add_tit{
+	padding: 4px 10px;
+	width: 700px;
+}
+.add_cont{
+	width: 700px;
+	height: 300px;
+	padding: 5px 10px;
+	border: 1px solid #efefef;
+	outline: none;
+	margin-left: 4px;
+}
+.footer{
+	width: 800px;
+	padding: 4px 0px;
+	float: left;
+	text-align: center;
+}
+.footer a{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+	color: white;
+	background: #169BD5;
+	color: white;
+	border-radius: 5px;
+}
+#save{
+	margin-right: 80px;
+}
+.link_id{
+	border: 1px solid #efefef;
+	padding: 4px 10px;
+	display: none;
+	margin-left: 96px;
+	margin-top: 20px;
+	width: 350px;
+}
+.travel{
+	padding: 4px 10px;
+	margin-left: 20px;
+	border: 1px solid #efefef;
+	display: none;
+}
+.country, .sheng, .shi{
+	width: 200px;
+	display: inline-block;
+	padding: 4px 10px;
+	display: none;
+}

@@ -1,0 +1,35 @@
+html, body, div, ul, ol, li, input, button, dl, dd, dt, a, p, span, em, img, i, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-weight: normal;
+	font-style: normal;
+	box-sizing: border-box
+}
+input,textarea,select {
+	outline: none;
+	text-indent: 3px;
+}
+.zc_btn {
+	min-width: 80px;
+	height: 25px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: #0baa65;
+	cursor: pointer;
+	padding: 3px;
+	display: inline-block;
+}
+.zc_page_wp {
+	width: 900px;
+	overflow:auto;
+	margin: 0 auto;
+}
+.zc_clear_float::after {
+	content: '';
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,50 @@
+[v-cloak]{
+    display: none;
+}
+.modal-dialog{
+    margin: 200px auto;
+}
+#myModal .modal-content{
+    width: 300px;
+    height: 160px;
+    margin-left: 150px;
+}
+#myModal .cont{
+    text-align: center;
+    font-size: 18px;
+    height: 100px;
+    line-height: 100px;
+}
+/*城市列表编辑弹框*/
+#myModal1 .cont span{
+    margin-right: 10px;
+}
+#myModal1 .cont select{
+    width: 130px;
+    margin-left: 20px;
+}
+#myModal1 input, #myModal2 input{
+    width: 180px;
+}
+/*旅行特惠、自定义专题活动编辑弹框*/
+#myModal2 .cont li.li1{
+    padding:10px 0px;
+}
+#myModal2 .cont li.li2{
+    padding-left: 10px;
+}
+#myModal2 .cont span{
+    margin: 0 10px;
+}
+#myModal2 li.li2 span{
+    margin: 0px 30px 0px 20px;
+}
+#myModal2 li, #myModal1 li{
+    margin: 4px 0px;
+}
+#myModal2 li.li3{
+    padding: 4px 0px;
+}
+#myModal2 li.li3 input{
+    width: 300px;
+}

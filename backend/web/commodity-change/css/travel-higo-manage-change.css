@@ -1,0 +1,623 @@
+.content-header{
+    display: none;
+}
+.top .ps{
+    height: 40px;
+    line-height: 40px;
+    background: #1888f8;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+.top hr{
+    margin-top: 0;
+    background: #1888f8;
+}
+.rignt-con{
+    padding-left: 3%;
+}
+.per{
+    border: none;
+}
+/*上传图片*/
+.fl{
+    height: 200px;
+}
+.tg_pic {
+    padding:20px;}
+.tg_picbox {
+    width:500px;;
+
+}
+.tg_picbox .zheng,.tg_picbox .fan {
+    width:200px;
+    float: left;}
+.tg_picbox .fan {
+    margin-left: 20px}
+.tg_picbox .tgpic_item {
+    width: 200px;
+    height:150px;
+    border:1px solid #EFEFEF;
+    overflow: hidden;
+    position: relative;
+}
+.tgpic_item .file_upload {
+    opacity:0;filter:alpha(opacity=0);
+    width:200px;
+    height:150px;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;}
+.tgpic_item .tg_add {position: absolute;
+    left: 38%;
+    top: 35%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 0;}
+.tgpic_item .close {
+    display: none;
+    position: absolute;
+    top:10px;
+    right:10px;
+    z-index:3}
+.tgpic_item .pic_box {
+    width:200px;
+    height:150px;
+    overflow: hidden;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.tg_pic>li {
+    line-height:normal;
+    margin-bottom:20px;}
+.tg_pic>li>.pleft {
+    width:130px;
+    color: #333;
+    font-size:12px;
+    font-weight:600;
+}
+.tg_pic>li i {
+    height:30px;}
+.tg_pic>li>.pleft>p{
+    line-height:20px;
+    text-align: left;
+    width: 100%;
+}
+.tg_pic>li>.pleft>.p1 {margin-top: 50px;}
+.tg_pic>li>.pone {
+    height:30px;
+    line-height:30px;}
+.tg_pic>li .inputone {
+    width:440px;
+    height:30px;
+    border:1px solid #EFEFEF;
+    box-sizing: border-box;}
+.tg_pic>li input[type=radio]{
+    width:15px;
+    height:15px;
+    margin-right: 10px;
+}
+.card_type_box .card_t {
+    display: block;}
+.card_type_box .card_t+.card_t {
+    margin-left: 80px;}
+.card_type_box {
+    height:30px;
+    margin-top:8px;}
+.submit_one {
+    text-align: center;}
+.submit_one>.goup {
+    color: #16ae67;font-size: 14px;
+    display: inline-block;text-align: center;margin-right: 70px;}
+.submit_one>.submit {
+    width:260px;height: 48px;
+    color: #ffffff;
+    font-size:14px;text-align: center;
+    line-height:48px;
+    background: #16AE67;border:none;border:0;
+    -webkit-border-radius:2px;margin:0 auto;
+    -moz-border-radius:2px;margin:0 auto;
+    border-radius:2px;margin:0 auto;
+    display: inline-block;}
+.zfb_show {
+    display: none;
+}
+#browse,#browse2,.browses,.browse{
+    background-color:transparent;
+    border:1px solid #ccc;
+    width:200px;
+    height:150px;
+    z-index:1;
+    position: absolute;
+    left: -1px;
+    /*background:url(images/add_pic.png) no-repeat center center;
+    background-size:50px;*/
+}
+.file{
+    position:relative;
+}
+.file-list,.file-list2,.file-lists{
+    position:absolute;
+    left:0;
+    top:0;
+    width:200px;
+    height:150px;
+
+}
+.file-list .add_img,.file-list2 .add_img,.file-lists .add_img{
+    width:200px;
+    height:150px;
+    z-index: 2;
+}
+.file-list .dele_img,.file-list2 .dele_img,.file-lists .dele_img{
+    position:absolute;
+    right:0;
+    top:0;
+    width:20px;
+    z-index:3;
+}
+.container,.container2,.containers {
+    position:relative;
+    width:200px;
+    height:150px;
+}
+.container .jia_img,.container2 .jia_img,.containers .jia_img{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:50px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.Wdate{
+    width: 140px!important;
+    display: inline-block;
+}
+/*保存取消按钮*/
+.submitbtn{
+    width: 34%;
+    margin: 30px auto;
+    height: 40px;
+    justify-content: space-around;
+}
+.submitbtn button{
+    float: left;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #666;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+/*价格日历*/
+.test-box{
+    position: absolute;
+    z-index: 30;
+    height: 40px;
+    background: white;
+    padding: 0 20px;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.test-box  a{
+    float: left;
+    display: block;
+    color: black;
+}
+.test-box li{
+    width: 140px;
+    line-height:40px;
+    text-align: center;
+}
+.test-box a:hover{
+    cursor: pointer;
+}
+.test-box a:last-child{
+    display: none;
+}
+.test-box a:nth-child(1){
+    border-bottom: 3px solid gray;
+}
+.fc-day, .fc-day-header{
+    border: none!important;
+}
+.calendarWrapper{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+/*行程介绍部分图片上传*/
+.zp{
+    margin-bottom: 10px;
+}
+.zp ul{
+    margin-top: 20px;
+    padding-left: 80px;
+    list-style: none;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.zp ul li{
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.zp ul .total_div img{
+    width: 100%;
+    height: 150px;
+}
+.canvas-box{
+    position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    margin:100px auto 0;
+}
+.canvas-box .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: move;
+    border:1px solid #69f;
+}
+.canvas-box div,.canvas-box canvas{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+/*input type='file'美化css*/
+
+.meihua {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0;
+    width:200px;
+    height:150px;
+    /*margin-top:10px;*/
+    /*margin-left:10px;*/
+    text-align: center;
+    background:url(../image/add_canvas.png)no-repeat center center;
+    background-size:40px 40px;
+}
+.meihua input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/*layer css*/
+
+body,html{
+    min-height:100%;
+}
+.layer{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index:999;
+    display:none;
+    height:100%;
+    overflow:auto;
+}
+#icon_save{
+    position:absolute;
+    /*right:100px;*/
+    border:none;
+    color:#fff;
+
+}
+#icon_save img{
+    width: 40px!important;
+}
+#save{
+    background:url(../image/choose_pic.png) no-repeat;
+    width:30px;
+    height:30px;
+    background-size: 100%;
+    border:none;
+    float:right;
+    margin-top: 3.5px;
+    margin-left:20px;
+    outline: none;
+}
+.zp .total_div canvas{
+    margin-right:20px;
+    width:200px;
+}
+.zp ul .total_div{
+    position:relative;
+    width:200px;
+    height:150px;
+    float: left;
+}
+.zp ul .tool_div{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left:0;
+    top:0;
+    width:200px;
+    height:150px;
+    z-index:998;
+    color:#fff;
+    opacity: 0;
+}
+.tool_div p{
+    text-align: center;
+    margin:0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.zp ul span{
+    width:42px;
+    height:42px;
+    background-color: #26a873;
+    color:#fff;
+    display:inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+.zp ul span.del{
+    padding-top:12px;
+    margin-right: 10px;
+}
+.zp ul span.shoutu{
+    float:right;
+    padding-top:0;
+    padding-top: 5px;
+    margin-right:0;
+    box-sizing: border-box;
+}
+.zp ul .div_shoutu{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:998;
+    color:#fff;
+    display: none;
+    width:50px;
+    height:50px;
+}
+.current_first{
+    display:block!important;
+}
+
+.zp ul i{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #26a873;
+    border-right: 50px solid transparent;
+}
+.zp ul b{
+    display: inline-block;
+    color:#fff;
+    color:#fff;
+    z-index:998;
+    position:absolute;
+    left:0;
+    top:5px;
+    font-size: 14px;
+}
+.canvas_shangchuan .tool_div p{
+    padding:0;
+    border:none;
+    /*display: none;*/
+
+}
+#ipt{
+    height: 150px;
+}
+
+/*添加标签*/
+#myModal .modal-content{
+    margin-left: -130px;
+    width: 1030px;
+}
+.modal-content div:nth-child(1){
+    width: 100%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 50px 30px 30px 30px;
+}
+.modal-content div:nth-child(1):after{
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+.modal-content div:nth-child(1) span{
+    width: 140px;
+    padding: 10px;
+    float: left;
+    font-size: 14px;
+    height: 50px;
+    margin: 5px 10px;
+    text-align: center;;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.modal-content div:nth-child(2){
+    line-height: 80px;
+    text-align: center;
+}
+.modal-content div:nth-child(2) span{
+    background: green;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/*行程介绍*/
+.addnew_text{
+    width: 70px;
+    height: 70px;
+}
+.xcjs button{
+    border: none;
+}
+.addnew_text img{
+    width: 70px;
+    height: 70px;
+}
+.file-lists{
+    width: 173px;
+    height:138px;
+}
+.title_first{
+    width: 63.5%;
+    height: 30px;
+    margin-left: 0!important;
+}
+.addright{
+    margin-left: 76px!important;
+    margin-bottom: 20px!important;
+}
+.tg_detail textarea{
+    width: 63.5%;
+    height: 200px;
+    border: 1px solid #ccc;
+}
+.add_txt{
+    width: 100px!important;
+    heigth: 100px!important;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.preview{
+    width: 100px!important;
+    height: 100px!important;
+}
+.image-container{
+    margin-left: 15px!important;
+}
+.textarea ul{
+    margin-right: 0!important;
+}
+.textarea .zheng{
+    border: 1px solid #ccc;
+}
+.textarea ul li{
+    width: 173px;
+    height: 138px;
+    border: 1px solid #ccc;
+}
+.textarea li .add_img, .textarea li .file-list, .textarea li #browse{
+    width: 173px;
+    height: 138px;
+}
+.textarea p{
+    position: absolute;
+    margin-bottom:0;
+    height: 138px;
+    width: 173px;
+}
+.textarea .jia_img{
+    width: 50px!important;
+    height: 50px!important;
+    margin-left: 0!important;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+.newright{
+    margin-left: 79px!important;
+}
+.addright .addnew_text, .newright .addnew_text{
+    margin-left: 15px!important;
+}
+.addright .zheng, .newright .zheng{
+    margin-left: 0!important;
+}
+/*气泡*/
+.detail em{
+    background: url("../image/wenhao_left.png") no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left:-7px;
+    top: 0px;
+}
+
+.submitbtn button:nth-child(1){
+    margin-right: 100px;
+}
+@media screen and (max-width: 1700px) {
+    .test-box li{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .test-box li{
+        width: 110px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .submitbtn button{
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .submitbtn button:nth-child(1){
+        margin-right: 40px;
+    }
+    .test-box li{
+        width: 90px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .test-box li{
+        width: 70px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .submitbtn button{
+        width: 70px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .submitbtn button:nth-child(1){
+        margin-right: 30px;
+    }
+}

@@ -1,0 +1,25 @@
+@charset "utf-8";      
+.zc_pagination a {
+    text-decoration: none;
+	border: 1px solid #AAE;
+	color: #15B;
+}
+
+.zc_pagination a, .zc_pagination span {
+    display: inline-block;
+    padding: 0.1em 0.4em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.zc_pagination .current {
+    background: #26B;
+    color: #fff;
+	border: 1px solid #AAE;
+}
+
+.zc_pagination .current.prev, .zc_pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;
+}

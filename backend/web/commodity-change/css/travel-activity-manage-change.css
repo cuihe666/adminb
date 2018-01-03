@@ -1,0 +1,436 @@
+.top p{
+    height: 40px;
+    line-height: 40px;
+    background: #1888f8;
+    color: white;
+    text-align: center;
+    width: 100px;
+}
+.top hr{
+    margin-top: 0;
+    background: #1888f8;
+}
+/*价格日历*/
+.test-box{
+    position: absolute;
+    z-index: 30;
+    height: 40px;
+    display: flex;
+    background: white;
+    padding: 0 20px;
+    left:0;
+    top:0;
+    width: 100%;
+}
+.test-box  a{
+    display: block;
+    float: left;
+    color: black;
+}
+.test-box li{
+    width: 140px;
+    line-height:40px;
+    text-align: center;
+}
+.test-box a:hover{
+    cursor: pointer;
+}
+.test-box a:last-child{
+    display: none;
+}
+.test-box a:nth-child(1){
+    border-bottom: 3px solid gray;
+}
+.fc-day, .fc-day-header{
+    border: none!important;
+}
+.calendarWrapper{
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+/*保存取消按钮*/
+.submitbtn{
+    width: 34%;
+    margin: 30px auto;
+    height: 40px;
+    justify-content: space-around;
+}
+.submitbtn button{
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #666;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+}
+/*添加主题标签*/
+#myModal .modal-content{
+    margin-left: -200px;
+    width: 1000px;
+    /*height: 300px!important;*/
+}
+.modal-content div:nth-child(1){
+    width: 100%;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 50px 30px 30px 30px;
+}
+.modal-content .cont:after{
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+    clear: both;
+}
+.modal-content div:nth-child(1) span{
+    width: 140px;
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+    float: left;
+    height: 50px;
+    margin: 5px 8px;
+    text-align: center;;
+    line-height: 30px;
+    border: 1px solid #ccc;
+}
+.modal-content div:nth-child(2){
+    line-height: 80px;
+    text-align: center;
+}
+.modal-content div:nth-child(2) span{
+    background: green;
+    display: inline-block;
+    width: 140px;
+    height: 50px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.zp{
+    margin-bottom: 10px;
+}
+.zp ul{
+    margin-top: 20px;
+    list-style: none;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.zp ul li{
+    border: 1px solid #ccc;
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+.zp ul .total_div img{
+    width: 100%;
+    height: 150px;
+}
+.canvas-box{
+    position: relative;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+    margin:100px auto 0;
+}
+.canvas-box .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: move;
+    border:1px solid #69f;
+}
+.canvas-box div,.canvas-box canvas{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+/*input type='file'美化css*/
+
+.meihua {
+    position: relative;
+    display: inline-block;
+    background: #D0EEFF;
+    border: 1px solid #99D3F5;
+    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: 0;
+    width:200px;
+    height:150px;
+    /*margin-top:10px;*/
+    /*margin-left:10px;*/
+    text-align: center;
+    background:url(../image/add_canvas.png)no-repeat center center;
+    background-size:40px 40px;
+}
+.meihua input {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+/*layer css*/
+
+body,html{
+    min-height:100%;
+}
+.layer{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    background-color:rgba(0,0,0,0.7);
+    z-index:999;
+    display:none;
+    height:100%;
+    overflow:auto;
+}
+#icon_save{
+    position:absolute;
+    /*right:100px;*/
+    border:none;
+    color:#fff;
+
+}
+#icon_save img{
+    width: 40px!important;
+}
+#save{
+    background:url(../image/choose_pic.png) no-repeat;
+    width:30px;
+    height:30px;
+    background-size: 100%;
+    border:none;
+    float:right;
+    margin-top: 3.5px;
+    margin-left:20px;
+    outline: none;
+}
+.zp li img{
+    width: 200px!important;
+}
+.zp .total_div canvas{
+    margin-right:20px;
+    width:200px;
+}
+.zp ul .total_div{
+    position:relative;
+    width:200px;
+    height:150px;
+    float: left;
+    margin-bottom: 10px;
+}
+.zp ul .tool_div{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    left:0;
+    top:0;
+    width:200px;
+    height:150px;
+    z-index:998;
+    color:#fff;
+    opacity: 0;
+}
+.tool_div p{
+    text-align: center;
+    margin:0;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+.zp ul span{
+    width:42px;
+    height:42px;
+    background-color: #26a873;
+    color:#fff;
+    display:inline-block;
+    border-radius: 50%;
+    font-size: 12px;
+    padding-top: 6px;
+    box-sizing: border-box;
+}
+.zp ul span.del{
+    padding-top:12px;
+    margin-right: 10px;
+}
+.zp ul span.shoutu{
+    float:right;
+    padding-top:0;
+    padding-top: 5px;
+    margin-right:0;
+    box-sizing: border-box;
+}
+.zp ul .div_shoutu{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:998;
+    color:#fff;
+    display: none;
+    width:50px;
+    height:50px;
+}
+.current_first{
+    display:block!important;
+}
+
+.zp ul i{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 50px solid #26a873;
+    border-right: 50px solid transparent;
+}
+.zp ul b{
+    display: inline-block;
+    color:#fff;
+    color:#fff;
+    z-index:998;
+    position:absolute;
+    left:0;
+    top:5px;
+    font-size: 14px;
+}
+.canvas_shangchuan .tool_div p{
+    padding:0;
+    border:none;
+    /*display: none;*/
+
+}
+#ipt{
+    height: 150px;
+}
+.zp img{
+    margin-left: 0!important;
+}
+
+/*活动描述部分*/
+.addnew_text{
+    width: 100px;
+    height: 100px;
+}
+.addnew_text img{
+    width: 100px;
+    height: 100px;
+}
+.file{
+    position:relative;
+    width: 173px;
+    height: 138px;
+}
+.activity_description .file p{
+    position: relative;
+    height: 138px;
+}
+.activity_description .file div{
+    position: absolute!important;
+    width:100%;
+    left: 0;
+    top: 0;
+    height: 138px;
+}
+.activity_description ul{
+    margin-left: 78px!important;
+    margin-right: 20px!important;
+}
+.activity_description li{
+    border: 1px solid #ccc;
+}
+.activity_description p img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 30%!important;
+    top: 25%!important;
+    margin-left:0;
+}
+.activity_description p .browses{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:2;
+    opacity: 1;
+}
+.activity_description .dele{
+    margin-left: 0!important;
+}
+#files .container{
+    padding: 0;
+    margin: 0;
+}
+.detail em{
+    background: url("../image/wenhao_left.png") no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left:-7px;
+    top: 0px;
+}
+.activity_description{
+    margin-top: 20px;
+}
+
+.submitbtn button:nth-child(1){
+    margin-right: 100px;
+}
+@media screen and (max-width: 1700px) {
+    .test-box li{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .test-box li{
+        width: 110px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .submitbtn button{
+        width: 90px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .submitbtn button:nth-child(1){
+        margin-right: 40px;
+    }
+    .test-box li{
+        width: 90px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .test-box li{
+        width: 70px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .submitbtn button{
+        width: 70px;
+        height: 24px;
+        line-height: 24px;
+        font-size: 12px;
+    }
+    .submitbtn button:nth-child(1){
+        margin-right: 30px;
+    }
+}

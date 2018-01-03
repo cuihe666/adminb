@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+select, input{
+	outline: none;
+	width: 80px;
+	height: 30px;
+	box-sizing: border-box;
+	padding: 5px 10px;
+	display: inline-block;
+}
+.main{
+	border: 1px solid #ccc;
+	width: 95%;
+	margin: 20px auto;
+}
+.main p{
+	border-bottom: 2px solid #ccc;
+	padding-left: 20px;
+	font-size: 18px;
+	line-height: 40px;
+}
+.main .set{
+	padding-top: 20px;
+}
+.main .set div{
+	padding-left: 40px;
+}
+.main .set span{
+	display: inline-block;
+	margin-right: 10px;
+}
+.main button{
+	display: block;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	background: #169BD5;
+	border: none;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	outline: none;
+	margin: 20px 0px 20px 160px;
+}
+.main button:hover{
+	cursor: pointer;
+}

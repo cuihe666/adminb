@@ -1,0 +1,209 @@
+body,
+html {
+    background-color: #f5f5f5;
+    position: relative;
+    height: 100%;
+}
+/*进度部分*/
+.step_wp {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 3px;
+    color: #ccc;
+}
+.step_wp .pic_wp {
+    width: 850px;
+    margin: 0 auto;
+    padding: 55px 0;
+
+}
+.step_wp .word_wp {
+    width: 1028px;
+    margin: 0 auto;
+
+}
+.step_wp .word_wp span {
+    margin-right: 150px;
+}
+.step_wp .pic_wp span {
+    float: left;
+}
+.num b:first-child{
+    color: #999;
+}
+.step_wp .pic_wp span.num {
+    width: 20px;
+    height: 20px;
+    border-radius: 55%;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid #999;
+    position: relative;
+}
+.step_wp .pic_wp span.line {
+    width: 350px;
+    height: 2px;
+    background-color: #efefef;
+    margin-top: 10px;
+}
+.step_wp .pic_wp span.line.high {
+    background-color: #0baa65;
+}
+.house_info {
+    color: #0baa65;
+}
+.step_wp .pic_wp span.num span {
+    position: absolute;
+    width: 60px;
+    margin-left: -33px;
+    top: 22px;
+    text-align: center;
+}
+.step_wp .pic_wp span.num.on {
+    background-color: #0baa65;
+    color: #fff;
+    border: none;
+}
+.step_wp .pic_wp span.num.on span {
+    color: #0baa65;
+}
+.step_wp .pic_wp span.num.on span b:first-child {
+    color: #0baa65;
+}
+.step_wp .pic_wp span.green {background: #0baa65;}
+.blank0 { clear: both; font-size: 0; line-height: 0; height: 0px; overflow: hidden; }
+.clearfix:after { clear: both; display: block; visibility: hidden; height: 0; line-height: 0; content: ""; }
+.clearfix { _zoom: 1; }
+.clear { clear: both; }
+ .filePicker img {
+            width: 50px;
+}
+a{
+    text-decoration: none !important;
+}
+/*内容区*/
+.mess-cont {
+    width: 1200px;
+    margin: 20px auto 0;
+    background: #FFFFFF;
+    padding: 0 0 39px;
+}
+.mess-cont ul {padding: 20px;}
+.mess-cont ul>li {min-height: 30px;margin-bottom: 20px;line-height: 30px;}
+.company_r .cpy_type,.company_r .lxs_type {float: left;}
+.cpy_type>input[type=radio] ,.lxs_type>input[type=radio] {margin-right: 5px;float: left;margin-top: 9px;}
+.cpy_type>label ,.lxs_type>label{margin-right: 90px;float: left;}
+.company_r .ipt_select {min-width: 116px;height: 30px;text-indent: 10px;}
+.company_r .ipt_select+.ipt_select {margin-left: 50px;}
+.mess-cont ul>li>.title_l {display: inline-block;width: 130px;font-size: 12px;color: #333333;font-weight: 600;}
+.mess-cont ul>li i {color: red;margin-left: 10px;font-style: normal;font-size: 12px;float: left;line-height: 30px;}
+.company_r .ipt_long {width: 442px;height: 30px;line-height: 30px;border: 1px solid #EFEFEF;float:left;}
+.company_r .company_ins {width: 442px;height: 90px;border: 1px solid #EFEFEF;resize:none;float:left;}
+/*协议部分*/
+.protocol_box {width:884px;margin-left:150px;}
+.protocol_box>.detail{border:1px solid #EFEFEF;height:220px;overflow-y: auto;padding: 20px}
+#check_c {margin-right: 8px}
+.protocol_box>.check>i {font-style: normal;color: red;margin-left: 10px;}
+.check {
+    margin: 26px 0 0 0;
+}
+/*下一步*/
+.next_btn {
+    width: 260px;
+    height: 46px;
+    background: #16ae67;
+    color: #FFFFFF;
+    border: none;
+    margin: 79px auto 0;
+    display: block;
+}
+
+
+/*认证 组织企业 旅行社*/
+/* 上传图片 zjl 2017年5月25日11:48:43*/
+        .tg_pic {
+            padding:20px;}
+        .tg_picbox {
+            width:500px;;
+
+        }
+        .tg_picbox .zheng,.tg_picbox .fan {
+            width:200px;
+            float: left;}
+        .tg_picbox .fan {
+            margin-left: 20px}
+        .tg_picbox .tgpic_item {
+            width: 200px;
+            height:150px;
+            border:1px solid #EFEFEF;
+            overflow: hidden;
+            position: relative;
+        ;}
+        .tgpic_item .file_upload {
+            opacity:0;filter:alpha(opacity=0);
+            width:200px;
+            height:150px;
+            position: absolute;
+            top:0;
+            left:0;
+            z-index: 1;}
+        .tgpic_item .tg_add {position: absolute;
+            left: 38%;
+            top: 35%;
+            width: 50px;
+            transform: (-50% -50%);
+            z-index: 0;}
+        .tgpic_item .close {
+            display: none;
+            position: absolute;
+            top:10px;
+            right:10px;
+            z-index:3}
+            .zigezheng {
+    text-align: center;
+}
+        .tgpic_item .pic_box {
+            width:200px;
+            height:150px;
+            overflow: hidden;
+            position: absolute;
+            top:0;
+            left:0;
+        }
+        .mess-cont li .inputone {
+            width:440px;
+            height:30px;
+            border:1px solid #EFEFEF;
+            box-sizing: border-box;}
+        .mess-cont li input[type=radio]{
+            width:15px;
+            height:15px;
+            margin-right: 10px;
+            margin-top: 8px;
+        }
+        .card_type_box .card_t {
+            display: block;}
+        .card_type_box .card_t+.card_t {
+            margin-left: 80px;}
+        .card_type_box {
+            height:30px;
+		}
+		.submit_one {
+            text-align: center;}
+        .submit_one>.goup {
+            color: #16ae67;font-size: 14px;
+            display: inline-block;text-align: center;margin-right: 70px;}
+        .submit_one>.submit {
+            width:260px;height: 48px;
+            color: #ffffff;
+            font-size:14px;text-align: center;
+            line-height:48px;
+            background: #16AE67;border:none;border:0;
+            -webkit-border-radius:;
+            -moz-border-radius:;
+            border-radius:2px;margin:0 auto;
+            display: inline-block;}
+		/*一开始支付宝支付方式隐藏*/
+		.zfb_show {
+            display: none;}

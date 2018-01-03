@@ -1,0 +1,106 @@
+.star_edit thead tr th{
+	text-align:center;
+}
+.edit_star a{
+	padding-right:10px;
+}
+.btn-primary,.btn-primary:hover{
+	background-color:#1888F8;
+}
+
+.statImg{
+	width:200px;
+	height:auto;
+}
+
+.main.star_edit .conts table{
+   width:100%;
+	max-width:1200px;
+}
+/*ģ̬��*/
+/*.travelThemeModal .modal-footer span{
+	display:inline-block;
+	float:none;
+}*/
+.travelThemeModal p{
+	margin-bottom:0;
+}
+.travelThemeModal .cont input{
+  width:120px;
+}
+.travelThemeModal .list1{
+	float:left;
+	width:30%;
+}
+.travelThemeModal .typeList{
+	float:left;
+	width:100px;
+}
+.travelThemeModal .typeList.travelCity{
+	margin-right:20px;
+}
+.travelThemeModal .typeList.typeListId{
+	width:180px;
+}
+.travelThemeModal .modal-dialog{
+	min-width:1000px;
+}
+.travelThemeModal .travel_productImg{
+	width:450px;
+}
+.travelThemeModal  .travelTop{
+	margin-bottom:10px;
+	overflow: hidden;
+
+}
+
+.travelThemeModal  table .del{
+	width:80px;
+	text-align:center;
+	vertical-align: middle;
+}
+.travelThemeModal .reviewImg{
+	width:60px;
+}
+.travelThemeModal .reviewImg a{
+	line-height:30px;
+
+}
+.cityList{
+	width:50%;
+	display:block;
+	float:left;
+
+}
+.selectSort {
+	width:50%;
+    display:block;
+	float:left;
+}
+.travelTopCon{
+    overflow: hidden;
+	margin-top:10px;
+}
+
+.travelThemeModal .cont input.pic_url{
+	width:290px;
+}
+.travelThemeModal .container{
+	padding:0;
+}
+.travelThemeModal .pic .tit{
+	width:40px;
+	cursor: default;
+}
+.travelThemeModal .cont p .tit{
+	cursor: default;
+}
+.travelTheme{
+	position:relative;
+}
+.subItemId{
+	display:none;
+}
+.flag{
+	display:none;
+}

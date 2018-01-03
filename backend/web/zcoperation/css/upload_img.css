@@ -1,0 +1,44 @@
+input,button,span{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+/*图片上传样式*/
+.pic_url{
+    display: inline-block;
+    width: 260px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    border: 1px solid #efefef;
+    float: left;
+}
+.file{
+    float: left;
+    width: 100px;
+    height: 32px;
+}
+.file button{
+    padding: 2px 10px;
+    color: white;
+    background: #1888F8;
+    border: 1px solid #efefef;
+}
+.pic .tit{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 10px;
+    text-align: right;
+}
+.modal-footer{
+    text-align:center;
+    padding: 20px 25%;
+    overflow:hidden;
+}
+/*
+.modal-footer span{
+    display:inline-block;
+    float:left;
+}
+*/

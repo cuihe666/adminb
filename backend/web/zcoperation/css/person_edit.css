@@ -1,0 +1,30 @@
+.person_edit{
+	position:relative;
+}
+.person_confirm.cont  .common  select{
+	width:300px;
+}
+.myLinkType,.person_confirm.cont input.travelInput{
+	width:150px;
+	display:inline-block;
+}
+
+.person_confirm.cont  .travelCity  select{
+	width:300px;
+}
+.person_confirm.cont  .common  select .sort{
+	width:300px;
+}
+.person_confirm.cont  .cityList select{
+	width:97px;
+	margin-right:5px;
+}
+.person_confirm .common.travel,.person_confirm .common.travelCity,.person_confirm .common.cityList{
+	display:none;
+}
+.person_confirm .common.cityList .country{
+	display:inline-block;
+}
+.person_confirm.cont  .common.travel  select,.cont .common.travel input{
+	width:150px;
+}

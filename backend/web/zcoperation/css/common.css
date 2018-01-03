@@ -1,0 +1,93 @@
+body{
+	font-size: 14px;
+	background: white;
+}
+.clear:after{
+	content: ".";
+	height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.main{
+	width: 95%;
+	margin: 0px auto;
+	border: 1px solid #efefef;
+	padding: 10px 20px;
+}
+.main .t_header{
+	padding: 10px 0px;
+	border-bottom: 3px solid #1888F8;
+}
+.main p{
+	padding: 10px 0px;
+}
+.main p a{
+	display: block;
+	width: 88px;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 12px;
+	color: white;
+	background: #1888F8;
+}
+.main .conts table{
+	/*width: 1200px;*/
+	width: 95%;
+}
+.conts table td{
+	text-align: center;
+	vertical-align: middle!important;
+}
+.modal-header{
+	font-size: 18px;
+	padding: 10px 0px 10px 20px
+}
+.cont{
+	padding: 10px 20px;
+}
+.cont p{
+	padding: 6px 0px;
+}
+.cont p .tit{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: right;
+	margin-right: 10px;
+}
+.cont input, .cont select{
+	border: 1px solid #efefef;
+	padding: 4px 10px;
+	height: 30px;
+}
+.cont input{
+	width: 300px;
+}
+.modal-footer{
+	text-align: center;
+}
+.modal-footer span{
+	padding: 6px 24px;
+	font-size: 16px;
+	background: #1888F8;
+	border-radius: 5px;
+}
+.modal-footer span:hover{
+	cursor: pointer;
+}
+.jump_type input{
+	display: block;
+	margin-top: 10px;
+	padding: 4px 10px;
+	height: 30px; 
+	margin-left: 90px;
+	display: none;
+}
+.country, .sheng, .shi{
+	width: 120px;
+	margin-top: 10px;
+	display: none;
+}

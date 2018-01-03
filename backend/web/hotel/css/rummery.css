@@ -1,0 +1,97 @@
+.fl {float: left;}
+.fr {float: right;}
+/*rummery_tab*/
+.rummery_tab {padding: 0;}
+.rummery_tab>li {width: 12%;list-style: none;height: 50px;background: #DDDDDD;border-bottom: 2px solid #EEEEEE;text-align: center;font-size: 16px;line-height: 50px;cursor: pointer;}
+.rummery_tab>li.current {background: #CCCCCC;border-bottom: 2px solid #007BB6;}
+/*.rummery_item:not(:first-child) {display: none;}*/
+.rummery_con {padding: 20px 0;}
+/*suppy*/
+#tab2 li>span+span {background: #666666;color: #FFFFFF;}
+#tab2 li>span+span>em{color: #FFFFFF;}
+.suppy_detail {}
+.rummery_item {padding: 10px;border: 1px solid #CCCCCC;min-height: 300px;}
+.suppy_box {padding-left: 0;}
+.suppy_box>li {list-style: none;font-size: 14px;color: #555555;margin-bottom: 10px;}
+.suppy_box>li>label {width: 130px;color: #555555;text-align: right;padding-right: 5px;}
+.suppy_box>li>label>span {color: #f53e3e;line-height: 32px;padding-right: 5px;}
+.suppy_box>li>input {width: 400px;height: 32px;line-height: 32px;border: 1px solid #CCCCCC;}
+.suppy_box>li>i {font-style: normal;color: #f53e3e;margin-left: 10px;line-height: 32px;display: none;}
+.address_box {display: inline-block;}
+.address_con>select {height: 32px;width: 130px;}
+.address_box>.add_detail {width: 400px;height: 32px;line-height: 32px;border: 1px solid #CCCCCC;margin-top: 5px;}
+.suppy_box>li>select {height: 32px;width: 130px;}
+.content .notice {text-align: center;color: #CCCCCC;font-size: 14px;}
+.fangtai_item>span.man{width:100%;height: 50px;text-align: center;line-height: 50px;color: #FFFFFF;background: #ff9695;display: inline-block;margin-left: 0!important;display: none;}
+/*fangxing*/
+.house_price_tab {padding: 0;border-bottom: 1px solid #1888f8;height: 32px;}
+.house_price_tab>li {height: 32px;background: #EEEEEE;margin-right: 10px;width: 100px;text-align: center;display: inline-block;line-height: 32px; color: #555555; border-top: 1px solid #CCCCCC;border-left: 1px solid #CCCCCC;border-right: 1px solid #CCCCCC;cursor: pointer;border-bottom: 1px solid #1888f8;}
+.house_price_tab>li.current {border-bottom: 1px solid #F2F2F2;border-left: 1px solid #1888f8;border-top: 1px solid #1888f8;border-right: 1px solid #1888f8;color: #1888f8;}
+.house_price_item+.house_price_item {display: none;}
+.rummery_price {position: relative;}
+.rummery_price .price_clk {border-radius: 5px;background: #1888F8;color: #FFFFFF;text-align: center;height: 32px;line-height: 32px;width: 100px;position: absolute;top:8px;right: 30px;cursor: pointer;}
+.click_con {width: 8%;float: left;min-height: 50px;margin-right: 1px;background: #CCCCCC;}
+.yongjin_input,.dijia_input {display: none;}
+.click_con .clk_ipt>input {text-align: center;padding: 2px 0;width: 100%;border: 1px solid #ccc;}
+.click_con .man {display: inline-block;top:0;right: 0;width: 20px;height: 20px;background: #ff9695;color: #FFFFFF;text-align: center;line-height: 20px;}
+.last_click {width: 8%;display: inline-block;text-align: center;}
+.click_con>div{line-height: 26px;text-align: center;}
+.yongjin {color:#AAAAAA ;}
+#edit_price,#edit_money {color:#63a7df;}
+#date_text2,#date_text {background: none;color: #FFFFFF;}
+.house_change {padding: 10px 0;}
+.house_change>select {padding: 5px 0;}
+.cal_box {margin-bottom: 10px;}
+.cal_box li>div {display: inline-block;min-width: 2.8%;width:2.8%;min-height: 50px;background: #ccc;margin-right: 1px;text-align: center;line-height: 26px;}
+.cal_con.cal_box li>div+div {display: inline-block;min-width: 2.8%;height: 50px;background: #ccc;margin-right: 1px;text-align: center;line-height: 50px;cursor: pointer;}
+.cal_con.cal_box li>div+div:hover {background: #BBBBBB;}
+.cal_con.cal_box li>div.fangtai_item:nth-of-type(2) {background: #fdb748;}
+li#top_date>div.fangtai_day:nth-of-type(2) {background: #fdb748;}
+.cal_box li>div.cal_title {width: 130px;text-align: center;float: left;line-height: inherit;padding: 10px 0;background: #d4e9fa;}
+.cal_price li>div+div {width: 8%;float: left;}
+.cal_price li>div:last-child{text-align: center;float: left;line-height: inherit;padding: 0;line-height: 50px;}
+.cal_con2 li>div:last-child {padding: 0;line-height: 26px;}
+.cal_con2 li>div:last-child>em {cursor: pointer;}
+.cal_con2 li>div:last-child>em:hover {text-decoration: underline;}
+.calender_right {text-align: right;padding-right: 30px;margin-bottom: 20px;}
+.oldprev,.newprev,.oldprev2,.newprev2{ border:none; background:none;}
+/*layer content color*/
+.layui-layer-hui .layui-layer-content {color: #FFFFFF;}
+/*model*/
+.house_modal .modal-header h4 {text-align: center;}
+.house_modal .house_modal_con {width: 500px;margin: 0 auto;}
+.house_modal .house_modal_con label {display: inline-block;}
+.house_modal .house_modal_con .radio_box{display: inline-block;padding: 0 20px;}
+.house_modal .house_modal_con>li {line-height: 30px;}
+.house_modal .single_num_box ,.house_modal .more_num_box {display: inline-block;}
+.house_modal .single_num_box>em ,.house_modal .more_num_box>em{display: inline-block;font-style: normal;font-size: 24px;padding: 0 5px;border: 1px solid #ccc;margin: 0 5px;cursor: pointer;}
+.house_modal .single_num_box>input ,.house_modal .more_num_box>input{width: 80px;text-align: center;border:1px solid #ccc;padding:5px 0}
+.house_modal .radio_box>input,.house_modal .checkbox_box>input {margin : 8px 5px 0 0 ;}
+.house_modal .house_modal_con .checkbox_box  {display: inline-block;padding: 0 20px;}
+.house_date_con{margin-left:20px;}
+.house_date_con>input {width: 150px;padding: 15px 0;}
+.house_date_con>span {margin: 0 5px;}
+
+/* date input */
+.iDate,.iDate2{ position:relative; display:inline-block; width:150px;background:#fdb748; vertical-align:middle;border-radius: 5px;color: #FFFFFF;text-align: center;}
+.iDate>span,.iDate2>span {color: #FFFFFF;padding: 5px 0 0;display: inline-block;}
+.iDate>input,.iDate2>input{ width:100%; height:34px;border:none; background:#ffffff; line-height:34px; font-family:'Arial',sans-serif; -webkit-user-select:none;}
+.iDate>input:disabled,.iDate2>input:disabled{ opacity:0.5;}
+
+.contact_box {padding: 20px 0 0 50px;}
+.contact_box .content_item{height: 80px;line-height: 80px;}
+.contact_box .content_item>dd,.contact_box .content_item>li{float: left;width: 14%;max-width: 14%;border: 1px solid #CCCCCC;height: 80px;line-height: 80px;text-align: center;}
+.contact_box .contact_title {height: 40px;line-height: 40px;}
+.contact_box .contact_title>dd {height: 40px;line-height: 40px;}
+.contact_box .content_item>li {border-top: none;}
+.contact_box .content_item>li+li,.contact_box .content_item>dd+dd {border-left: none;}
+.contact_box .content_item>li>span {display: inline-block;width: 100%;}
+.contact_box .content_item>li>input {display: none;width: 100%;height:78px;text-indent: 10px;text-align: center;}
+.contact_box .content_item>li>.op_eds{width: 45%;float: left;}
+.contact_box .content_item>li>.op_eds>p{text-align: right;padding-right: 20px;cursor: pointer;}
+.contact_box .content_item>li>.op_eds>p.save {display: none;}
+.contact_box .content_item>li>.op_eds>p:hover,.contact_box .content_item>li>.delete:hover{color: #fdb748;}
+.contact_box .content_item>li>.delete {width: 45%;float: right;margin-left: 20px;cursor: pointer;}
+
+.suppy_btn  {width:200px;margin: 20px auto;}
+

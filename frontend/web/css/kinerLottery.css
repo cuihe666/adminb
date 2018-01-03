@@ -1,0 +1,360 @@
+@charset "UTF-8";
+
+html {
+    font-size : 20px;
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 25px !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 26.75px !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px !important;
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px !important;
+    }
+}
+html, body {
+    padding: 0;
+    margin: 0;
+    height:100%;
+    width:100%;
+    position:relative;
+}
+p,li,b,span,div,strong,h1,h2,h3,h4,h5,h6,a,ul,input,button{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+.box {
+    width: 14rem;
+    height: 14rem;
+    position: relative;
+    margin: 0 auto;
+    position: absolute;
+    top: 63%;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.layer,.layer2,.layer3,.layer4,.layer5{
+  position:absolute;
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  background-color:rgba(0,0,0,0.7);
+  z-index:2;
+  display:none;
+}
+
+.layer .layer_con,.layer2 .layer_con,.layer3 .layer_con,.layer4 .layer_con,.layer5 .layer_con{
+  position:absolute;
+  left:0;
+  top:45%;
+  padding:3% 0;
+  padding:10% 0 3% 0;
+  margin:0 2%;
+  transform: translate(0,-50%);
+  -webkit-transform: translate(0,-50%);
+  -moz-transform: translate(0,-50%);
+  -o-transform: translate(0,-50%);
+  -ms-transform: translate(0,-50%);
+}
+.layer4 .layer_con,.layer3 .layer_con,.layer5 .layer_con{
+  position:relative;
+  /*height:80%;*/
+    height:70%;
+}
+.layer4 .record_bj,.layer3 .record_bj,.layer5 .record_bj{
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:1;
+}
+.layer3 .record_bj,.layer4 .record_bj{
+    height:100%;
+}
+.layer4 .close,.layer3 .close,.layer .close,.layer2 .close,.layer5 .close{
+  position:absolute;
+  left:50%;
+  bottom:5%;
+  width:40px;
+  transform:translate(-50%,0);
+  -webkit-transform:translate(-50%,0);
+  -o-transform:translate(-50%,0);
+  -moz-transform:translate(-50%,0);
+  -ms-transform:translate(-50%,0);
+}
+.layer4 ul,.layer3 ul,.layer5 p{
+  padding:0 10%;
+  margin-top:8%;
+  z-index:2;
+  position:absolute;
+  left:0;
+  top:40px;
+}
+.layer4 ul{
+  height:75%;
+  overflow-y: scroll;
+}
+.layer5 p{
+  color:#a33e11;
+  margin-top:2rem;
+  font-size: 0.8rem;
+}
+.layer4 ul li,.layer3 ul li{
+    font-size: 14px;
+    line-height:28px;
+}
+.layer3 ul li{
+  line-height: 22px;
+}
+@media screen and (min-width:414px){
+    .layer3 ul li{
+        line-height: 30px;
+    }
+}
+.footer_award{
+  position: absolute;
+  left:0;
+  bottom:0.3rem;
+  /*bottom:1rem;*/
+  width:90%;
+  margin-left:5%;
+}
+
+@media screen and (max-width:320px){
+  .footer_award{
+    bottom:0.5rem;
+  }
+}
+
+.footer_award img{
+  width:40%;
+  margin-left:10%;
+  height:2rem;
+  background-color:transparent;
+}
+.footer_award .btn2{
+  margin-left:0;
+}
+
+/*中奖提示 css*/
+.layer_con .rorate_tip-bj{
+  width:80%;
+  margin-left:10%;
+}
+.layer .layer_con .reaward,.layer2 .layer_con .reaward{
+  position: absolute;
+  left:0;
+  top:35%;
+  color:#feef00;
+  width:70%;
+  margin-left:15%;
+  font-size: 0.9rem;
+}
+.reaward img{
+  width:90%;
+    margin-left:5%;
+}
+.reaward div{
+  font-size:0.8rem;
+}
+
+
+.box .outer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.box .outer img.yuan{
+    width: 100%;
+}
+.box .shadow{
+  width:80%;
+  margin-left:10%;
+  position:absolute;
+  left:0;
+  bottom:-25px;
+}
+
+.box .inner{
+    position: relative;
+    width: 4rem;
+    height: 5rem;
+    left: 51%;
+    top: 50%;
+    -webkit-transform: translate(-49%, -50%);
+    -moz-transform: translate(-49%, -50%);
+    -ms-transform: translate(-49%, -50%);
+    -o-transform: translate(-49%, -50%);
+    transform: translate(-49%, -50%);
+    z-index: 2;
+    background: url(../images/lotteryBtn.png);
+    background-size: auto 4.5rem;
+    background-repeat: no-repeat;
+    border:none;
+}
+.box .inner.start:active{
+    -webkit-transform: translate(-50%, -50%) scale(.95);
+    -moz-transform: translate(-50%, -50%) scale(.95);
+    -ms-transform: translate(-50%, -50%) scale(.95);
+    -o-transform: translate(-50%, -50%) scale(.95);
+    transform: translate(-50%, -50%) scale(.95);
+}
+.box .inner.start{
+    background-position: 0 0;
+}
+.box .inner.no-start{
+    background-position: -5rem 0;
+}
+.box .inner.completed{
+    background-position: -10rem 0;
+}
+
+/*幸运大转盘*/
+.main{
+  position:relative;
+  height:100%;
+  width:100%;
+  background:url(../images/rorate.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+/*top css*/
+.main .top{
+    height:50px;
+  text-align: center;
+  color:#fff;
+    position:fixed;
+    top:20px;
+    width:100%;
+}
+.top .fanhui,.top .share{
+  width:20px;
+}
+.top .fanhui{
+  width:13px;
+position: absolute;
+left: 6px;
+top: 0px;
+    /*margin-top: 8px;*/
+    /*margin-left: 10px;*/
+}
+.top .share{
+  float:right;
+    margin-right:6px;
+}
+
+
+
+/*注册 登录页面 css*/
+html,body{
+  background-color:#f6f9fb;
+}
+.login{
+  margin:10% 8% 0;
+}
+.login p{
+  margin-bottom:15px;
+  position:relative;
+}
+.login span{
+  position:absolute;
+  left:5px;
+  top:8.5px;
+  font-size: 0.8rem;
+
+}
+.yz .xinxi_icon{
+  position:absolute;
+  left:5px;
+  top:12px;
+  width:22px;
+}
+.login input{
+  height:40px;
+  background-color: transparent;
+  border:1px solid #efefef;
+  padding-left: 13%;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 100%;
+}
+@media screen and (max-width:320px){
+  .login input{
+    padding-left:15%;
+  }
+}
+@media screen and (min-width:768px){
+  .yz .xinxi_icon{
+    top:30px;
+  }
+  .login span{
+    top:25.5px;
+    font-size:0.5rem;
+  }
+  .yz .yz-btn{
+    margin-top:18px;
+  }
+}
+.login .yz{
+  margin-top:10px;
+}
+.yz .yz-ma{
+  width:60%;
+}
+.login .submit{
+  text-align: center;
+}
+.yz .yz-btn{
+  height:40px;
+  width:38%;
+  float:right;
+  text-align: center;
+  padding-left: 0;
+  background-color: #fbbc05;
+  border-radius: 3px;
+  color:#fff;
+  margin-top: 1px;
+}
+.submit .submit_btn{
+  width:100%;
+  height:40px;
+  background-color: #1dbe72;
+  border:none;
+  color:#fff;
+  margin-top:1rem;
+  border-radius: 5px;
+}

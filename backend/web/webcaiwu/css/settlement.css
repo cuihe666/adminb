@@ -1,0 +1,367 @@
+body,html{
+	padding:0;
+	margin:0;
+	border:none;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+div,p,b,img,button,table,tr,td,i,hr,ul,li,h4,button,em,u{
+	padding:0;
+	margin:0;
+	border: 0;
+	outline: none;
+	border-radius: 0;
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+input[type="number"]{
+	-moz-appearance: textfield;
+	appearance: textfield;
+	-webkit-appearance: textfield;
+	-o-appearance: textfield;
+	-ms-appearance: textfield;
+
+}
+u{
+	cursor: pointer;
+
+}
+button{
+	background-color: transparent;
+}
+input,button,select{
+	outline: none;
+}
+.main-header .logo{
+	line-height: inherit;
+	padding-top:5px;
+}
+.main-header .right h4,.main-header .right small{
+	font-size:14px;
+}
+/*兼容bootstrap css*/
+@media (min-width: 768px){
+	.navbar-nav>li>a{
+		padding-bottom: 10px;
+	}
+}
+.navbar-nav{
+	height:50px;
+}
+.navbar-nav li{
+	height:100%;
+}
+.navbar-nav li a{
+	height:100%;
+}
+/*侧边导航*/
+.main-sidebar, .left-side {height: 100% !important;overflow-y: auto !important;}
+.skin-blue .sidebar span{
+	color:#b8c7ce;
+}
+.sidebar-menu li{
+	/*padding:15px 0;*/
+	margin: 15px 0;
+	/*padding-left:20px;*/
+}
+.sidebar-menu li,.sidebar-menu span{
+	cursor:pointer;
+}
+.sidebar-menu .bar_top{
+	padding-bottom:0;
+}
+.sidebar-menu .bar_top li:last-child{
+	padding:0;
+	padding-left:20px;
+}
+.bar_top:nth-child(2) .bar_nobot{
+	padding-bottom:0;
+}
+.sidebar-menu .bar_top:last-child li{
+	/*padding-top:15px;*/
+	padding-bottom:0;
+	/*padding-left:35px;*/
+	padding-left: 20px;
+}
+.bar_top .bar_second{
+	display:none;
+}
+.bar_second ul{
+	display:none;
+}
+
+/*内容css*/
+.content-wrapper, .right-side{
+	background-color:#fff;
+}
+.content-wrapper .sxh_tk-cx .form_table{
+	overflow: auto;
+
+}
+
+::-webkit-scrollbar-thumb:active {background-color:#555}
+
+::-webkit-scrollbar{
+	width: 6px;
+	height: 6px;
+	background-color: #f5f5f5;
+}
+/*定义滚动条的轨道，内阴影及圆角*/
+::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: #f5f5f5;
+}
+/*定义滑块，内阴影及圆角*/
+::-webkit-scrollbar-thumb{
+	/*width: 10px;*/
+	height: 10px;
+	border-radius: 10px;
+	/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+	background-color: #999;
+}
+.h_wrap ul{
+	height:45px;
+}
+.h_wrap li{
+	float:left;
+	color:#333;
+	margin-right:10px;
+	border:1px solid #666;
+	padding:5px 10px;
+	cursor: pointer;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.h_wrap li a{
+	color:#333;
+	font-size:16px;
+}
+.h_wrap hr{
+	display:block;
+	height:5px;
+	border-top:2px solid blue;
+}
+.sxh_tk-cx .top i{
+	width:80%;
+	display:inline-block;
+	height:1px;
+	border-top:1px solid #999;
+}
+.sxh_tk-cx .top span:nth-child(1){
+	color:#6595BC;
+	/*cursor: pointer;*/
+}
+.sxh_tk-cx .sxh_content{
+	margin-top:20px;
+	background-color:#eee;
+	/*width:80%;*/
+	padding-top:20px;
+	border:1px solid #999;
+	border-radius: 10px;
+}
+.sxh_content li{
+	float:left;
+	margin-right:15px;
+	margin-bottom:30px;
+}
+.sxh_content ul li:nth-child(1){
+	width:250px;
+}
+.sxh_content ul li:nth-child(1) span{
+	width:85px;
+	display:inline-block;
+	text-align: right;
+}
+.sxh_content .first_ul li:nth-child(3){
+	width:300px;
+	margin-left:0px;
+	text-align: center;
+}
+.first_ul li:nth-child(3) select{
+	width:70px;
+}
+.sxh_content .second_ul li{
+	width:250px;
+}
+.sxh_content .third_ul li:nth-child(1){
+	width:250px;
+}
+.third_ul li:nth-child(2){
+	width:200px;
+}
+.third_ul li span,.second_ul li span{
+	width:85px;
+	display:inline-block;
+	/*text-align: right;*/
+}
+.sxh_content input,.sxh_content select{
+	height:30px;
+}
+.sxh_tk-cx .daochu{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.daochu button{
+	padding:5px 10px;
+	font-size: 14px;
+}
+.daochu button:nth-child(1){
+	margin-right:15px;
+}
+.form_table td{
+	text-align: center;
+}
+.form_table td span{
+	display:block;
+}
+/*.form_table tr:nth-child(2) td{
+	text-align: left;
+}*/
+.form_table tr:nth-child(2) td input{
+	margin-left:47px;
+}
+.form_table td em,.form_table td a{
+	font-style: normal;
+	display:inline-block;
+	margin-right:25px;
+}
+.form_table p{
+	text-align: left;
+}
+/*翻页*/
+.paganition .left{
+	margin-top: 15px;
+	float:left;
+}
+.paganition .right{
+	float:right;
+}
+.pager li>a, .pager li>span{
+	border-radius: inherit;
+	color:#777;
+}
+.billList,.billSurvey,.hasBorder{
+	border:1px solid #000;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+	vertical-align: inherit;
+	text-align: center;
+	border: 1px solid #000;
+}
+/*
+.table>tbody>tr>td.billListTitle{
+	text-align:left;
+}
+*/
+
+.h_wrap .current-top,li.current{
+	background-color:#3c8dbc;
+	color:#fff;
+	border:none;
+}
+.h_wrap .current-top a{
+	color:#fff;
+}
+.sxh_content .second_ul li:nth-child(3){
+	width:inherit;
+}
+
+/*查询 收起加背景*/
+#ysk_pop,.ysk_pop {cursor: pointer;}
+#ysk_btn {display: none;}
+.po_re {position: relative;}
+.po_ab {position: absolute;}
+
+
+/*确认取消按钮*/
+.yes,.yes:hover{
+	background:#3c8dbc;
+	color:#fff;
+	border:none;
+}
+.o_sure,.o_cancel,.o_qrwtg,.o_shtg,.o_bhtk,.o_edit,.jlsqtk{cursor: pointer;color:#3c8dbc;}
+/*重新审核按钮*/
+.reHandle{
+	display:none;
+}
+.alertBox .modal-footer{
+	text-align:center;
+}
+/*备注*/
+.refuseMsg{
+	display:block;
+	height:40px;
+	line-height:40px;
+	font-size:13px;
+	text-align: center;
+	margin:10px  auto 0 auto;
+	width:100%;
+}
+.modal-body textarea.splitMsg{
+    width:100%;
+    margin:10px  auto 0 auto;
+    display:block;
+}
+.reviewInput{
+	height:65px;
+	line-height:65px;
+}
+.table.payTable>tbody>tr>td:nth-child(n){
+    text-align:right;
+}
+
+.table.payTable>tbody>tr>td:nth-child(2n){
+    text-align:left;
+}
+.blue{
+    color:#1888F8;
+}
+.orange{
+    color:#FF9900;
+}
+.red{
+    color:#FF0000;
+}
+.underLine{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.modelMsg{
+    display:block;
+    float:right;
+}
+.to_detail:hover{
+	cursor: pointer;
+}
+
+/*操作流水*/
+
+/*日历过长时出现滚动条*/
+#myModal5  .h-body {
+	overflow: auto;
+}
+
+.top .sq:hover {
+	cursor: pointer;
+}
+.sxh_content .sq {background:url(../img/shouqi.png) left center no-repeat;}
+.sxh_content .sq.active {background:url(../img/zhankai.png) left center no-repeat;}
+/*#myModal2 {*/
+	/*height: 500px;*/
+	/*overflow: auto;*/
+/*}*/
+.search-content {padding-left: 40px;}
+

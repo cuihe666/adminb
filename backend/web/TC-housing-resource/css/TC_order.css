@@ -1,0 +1,121 @@
+[v-cloak]{
+	display: none;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+button{
+	border: none;
+	outline: none;
+	background: #169BD5;
+	border-radius: 4px;
+	color: white;
+}
+button:hover{
+	cursor: pointer;
+}
+.main{
+	/*width: 1560px;*/
+	border: 1px solid #ccc;
+	margin: 20px auto;
+}
+.main .tit{
+	line-height: 30px;
+	font-size: 18px;
+	padding-left: 20px;
+	border-bottom: 2px solid #ccc;
+}
+.main .search{
+	margin-top: 20px;
+	list-style: none;
+	width: 94%;
+}
+.main .search:after{
+	content: ".";
+	display: block;
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+.main .search li{
+	float: left;
+	/*line-height: 40px;*/
+	margin: 20px;
+}
+.search input, .search select{
+	height: 30px;
+}
+.search input{
+	padding-left: 5px;
+}
+.search button{
+	text-align: center;
+	/*display: block;*/
+	box-sizing: border-box;
+	height: 30px;
+	padding: 0px 15px;
+	margin-top: 5px;
+	line-height: 30px;
+}
+.main .cont_msg{
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.main .cont_msg span{
+	margin: 0px 40px 0px 10px;
+}
+.main .cont_msg button{
+	padding: 4px 20px;
+}
+.cont table{
+	width: 94%;
+	margin-left: 20px;
+	background: #efefef;
+}
+td{
+	vertical-align: middle!important;
+	text-align: center;
+}
+.paganition{
+	height: 40px;
+	padding: 0px 20px;
+	line-height: 40px;
+}
+.paganition .right{
+	margin-right: 16%;
+}
+.paganition .right ul{
+	height: 40px;
+	margin: 0px;
+}
+.paganition .right a{
+	padding: 0px 10px;
+	border-radius: 0px;
+	cursor: pointer;
+}
+.paganition .pages a{
+	padding: 0px 16px;
+}
+table a{
+	cursor: pointer;
+}
+.thead{
+	background: #F2F2F2;
+}
+#myModal p{
+	padding-left: 20px;
+	line-height: 40px;
+}
+.clo_btn:hover{
+	cursor: pointer;
+}
+@media screen and (max-width: 1500px){
+	.table_wrap{
+		overflow-x: auto;
+	}
+	.table_wrap table{
+		width: 1500px!important;
+	}
+}

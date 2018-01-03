@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.sticky p, .floated p, .fixed p, .ondemand p{ float:left; padding:0px; margin:0px; margin-left:10px; line-height:50px; color:#fff; font-size:12px;}
+.sticky a, .floated a, .fixed a, .ondemand a{ float:right; margin:13px 10px 0px 0px; }
+img{border:0px;}
+
+
+.sticky {
+
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+	width:100%;
+	border-bottom:3px solid #fff !important;
+
+	background: #91BD09; /* Old browsers */
+	background: -moz-linear-gradient(top, #91BD09 0%, #91BD09 100%); /* FF3.6+ */
+
+	/* FireFox 3.6 */
+	/* Safari4+, Chrome */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#91BD09', endColorstr='#91BD09')";
+	-pie-background: linear-gradient(#91BD09, #91BD09 100%);
+	behavior: url(PIE.htc);
+	-moz-box-shadow: 1px 1px 7px #676767;
+	-webkit-box-shadow: 1px 1px 7px #676767;
+	box-shadow: 1px 1px 7px #676767;
+	height: 50px;
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #91BD09),color-stop(1, #91BD09));/* IE6,IE7 */
+	/* IE8 */
+	/* Firefox F3.5+ */
+	/* Safari3.0+, Chrome */
+}
+
+.hide{display:none;}
+
+

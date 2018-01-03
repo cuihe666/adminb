@@ -1,0 +1,42 @@
+.cont p.sort,.cont p.msg{
+	margin-bottom:0;
+}
+.content:after{
+	content: '.';
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	display: block;
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1c651c8b339cb8307083feb3648a5f02fb1fa70d
+.cont p.msg .msgText{
+	color:#f00;
+}
+.star_edit{
+	position:relative;
+}
+.star_edit thead tr th{
+	text-align:center;
+}
+.edit_star a{
+	padding-right:10px;
+}
+.btn-primary,.btn-primary:hover{
+	background-color:#1888F8;
+}
+
+.statImg{
+	width:200px;
+	height:auto;
+}
+
+.main.star_edit .conts table{
+   width:100%;
+	max-width:1200px;
+}
+.msg{
+	display:none;
+}

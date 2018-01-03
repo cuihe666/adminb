@@ -1,0 +1,45 @@
+.booking-index .title{
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #1888f8;
+    list-style: none;
+    padding: 0;
+}
+.title li{
+    box-sizing: border-box;
+    float: left;
+    width: 7%;
+    line-height: 40px;
+    background: #1888f8;
+    text-align: center;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 0 5px;
+}
+.title li a{
+    color: black!important;
+    display: block;
+}
+.title .on{
+    background: #009933;
+}
+.title li:hover{
+    cursor: pointer;
+}
+.tap-wrap{
+    width: 100%;
+}
+.tap-wrap:after{
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.tap-wrap div{
+    width: 100%;
+    display: none;
+}
+.tap-wrap div:nth-child(1){
+    display: block;
+}

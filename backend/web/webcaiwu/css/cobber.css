@@ -1,0 +1,158 @@
+body,html{
+	padding:0;
+	margin:0;
+	border:none;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+div,p,b,img,button,table,tr,td,i,hr,ul,li,h4,button{
+	padding:0;
+	margin:0;
+	border: 0;
+	outline: none;
+	border-radius: none;
+	appearance:none;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	-o-appearance:none;
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+}
+button{
+	background-color: transparent;
+}
+input,button,select{
+	outline: none;
+}
+
+
+/*内容css*/
+/*header*/
+.main-header .left{
+	text-align: right;
+}
+.main-header .left img{
+/*	margin-left: 20px;
+*/}
+.main-header .right{
+	margin-left:55px;
+}
+.main-header .right h4{
+	margin-top:10px;
+}
+.main-header .right{
+	position: relative;
+	text-align: left;
+}
+.main-header .right small{
+	font-size: 12px;
+	position: absolute;
+	left:0;
+	top:3px;
+	width: 100%;
+	text-align: left;
+}
+ /*nav*/
+ .navbar-nav > li{
+ 	color:#fff;
+ 	line-height: 50px;
+ 	margin-right: 20px;
+ }
+ .dropdown-menu>li{
+ 	padding:0!important;
+ }
+ .navbar-nav > .user-menu > .dropdown-menu{
+ 	width:inherit;
+ }
+ .dropdown-menu>li>a{
+ 	padding:10px 3px;
+ 	text-align: center;
+ }
+ .navbar-custom-menu > .navbar-nav > li > .dropdown-menu{
+ 	right:inherit;
+ 	box-shadow: 0px 1px 1px 1px #e5e5e5;
+ }
+ .dropdown-menu>li{
+ 	width:80%;
+ 	margin-left:10%;
+ }
+ .navbar-nav>.user-menu>.dropdown-toggle{
+	
+ }
+
+/*content-wrapper*/
+
+.content-wrapper{
+	background-color: #fff;
+}
+.content-header>hr{
+	height:2px;
+	background-color:#1889f9;
+	margin-top: 5px;
+}
+.content-header{
+	padding-right:0;
+}
+.content>.row{
+	padding:15px;
+	/*height:80px;*/
+	box-sizing:border-box;
+	padding-bottom: 0;
+}
+.content>.row>.choose-ul select{
+	width:50%;
+	text-align: center;
+}
+.content>.row>.choose-ul>li{
+	float: left;
+	width:12%!important;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+.content>.row>.choose-ul>li input,.content>.row>.choose-ul>li select{
+	height: 30px;
+}
+.form_datetime{
+	/*float: right;*/
+}
+.content>.row>.choose-ul >.date-li{
+	width:30%!important;
+}
+.content>.row>.choose-ul >.date-li>div{
+	position: relative;
+}
+
+.content>.row>.choose-ul >.last-li{
+	width:10%!important;
+}
+button#search-btn.btn-flat{
+	padding:0;
+}
+.content>hr{
+	height:1px;
+	background-color: #e5e5e5;
+	margin-top:15px;
+}
+.table-responsive>.table{
+	border:1px solid #f4f4f4;
+}
+.table-responsive>.table{
+	margin-top:20px;
+}
+.table-responsive>.table td,.table-responsive>.table th{
+	text-align: center!important;
+	/*border-right: 1px solid #f4f4f4;*/
+	vertical-align: center;
+}
+/*分页*/
+.pagination{
+	margin:0;
+}
+.pagination li a{
+	margin-left:5px;
+}
+.pagination .disabled a{
+	color:#e5e5e5;
+}

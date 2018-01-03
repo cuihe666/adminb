@@ -1,0 +1,86 @@
+[v-cloak]{
+	display: none;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.main{
+	border: 1px solid #ccc;
+	/*width: 1560px;*/
+	margin: 20px auto;
+}
+.main .tit{
+	line-height: 40px;
+	border-bottom: 2px solid #ccc;
+	padding-left: 20px;
+	font-size: 18px;
+}
+.main .tap_change{
+	width: 100%;
+	height: 40px;
+	margin: 10px 0px;
+	list-style: none;
+}
+.main .tap_change li{
+	float: left;
+	width: 100px;
+	text-align: center;
+	height: 100%;
+	line-height: 40px;
+	margin-left: 20px;
+	background: #F2F2F2;
+}
+.main .tap_change li:hover{
+	cursor: pointer;
+}
+.click_btn{
+	background: #169BD5!important;
+	color: white;
+}
+.main .cont{
+	width: 100%;
+}
+.cont .prompt_msg{
+	line-height: 30px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+.cont table{
+	width: 80%;
+	margin-left: 20px;
+	background: #efefef;
+}
+.cont table td{
+	text-align: center;
+	vertical-align: middle!important;
+}
+.paganition{
+	height: 40px;
+	padding: 0px 20px;
+	line-height: 40px;
+}
+.paganition .right{
+	margin-right: 20%;
+}
+.paganition .right ul{
+	height: 40px;
+	margin: 0px;
+}
+.paganition .right a{
+	padding: 0px 10px;
+	border-radius: 0px;
+	cursor: pointer;
+}
+.paganition .pages a{
+	padding: 0px 16px;
+}
+@media screen and (max-width: 1500px){
+	.table_wrap{
+		overflow-x: auto;
+	}
+	table{
+		width: 1500px!important;
+	}
+}
